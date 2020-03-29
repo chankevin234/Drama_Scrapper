@@ -1,7 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
-URL = "https://www.indeed.com/jobs?q=data+scientist+%2420%2C000&l=New+York&start=10"    
+URL = "https://ca.indeed.com/jobs?q=business+analyst&l=Toronto%2C+ON"    
 
 soup = BeautifulSoup(urllib.request.urlopen(URL).read(), 'html.parser')
 
